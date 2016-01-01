@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.3.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@3.3.12
+3 info using node@v5.3.0
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle react-tutorial@1.0.0~prebuild: react-tutorial@1.0.0
+6 silly lifecycle react-tutorial@1.0.0~prebuild: no script for prebuild, continuing
+7 info lifecycle react-tutorial@1.0.0~build: react-tutorial@1.0.0
+8 verbose lifecycle react-tutorial@1.0.0~build: unsafe-perm in lifecycle true
+9 verbose lifecycle react-tutorial@1.0.0~build: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/hiromu/workspace/react-tutorial/node_modules/.bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+10 verbose lifecycle react-tutorial@1.0.0~build: CWD: /Users/hiromu/workspace/react-tutorial
+11 silly lifecycle react-tutorial@1.0.0~build: Args: [ '-c',
+11 silly lifecycle   'broserify src/app.js --transform babelify --out file build/bundle.js' ]
+12 info lifecycle react-tutorial@1.0.0~build: Failed to exec build script
+13 verbose stack Error: react-tutorial@1.0.0 build: `broserify src/app.js --transform babelify --out file build/bundle.js`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at emitTwo (events.js:87:13)
+13 verbose stack     at ChildProcess.emit (events.js:172:7)
+13 verbose stack     at maybeClose (internal/child_process.js:818:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid react-tutorial@1.0.0
+15 verbose cwd /Users/hiromu/workspace/react-tutorial/src
+16 error Darwin 15.2.0
+17 error argv "/usr/local/Cellar/node/5.3.0/bin/node" "/usr/local/bin/npm" "run" "build"
+18 error node v5.3.0
+19 error npm  v3.3.12
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error react-tutorial@1.0.0 build: `broserify src/app.js --transform babelify --out file build/bundle.js`
+24 error spawn ENOENT
+25 error Failed at the react-tutorial@1.0.0 build script 'broserify src/app.js --transform babelify --out file build/bundle.js'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the react-tutorial package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     broserify src/app.js --transform babelify --out file build/bundle.js
+25 error You can get their info via:
+25 error     npm owner ls react-tutorial
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]

@@ -1,0 +1,29 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "browserify": "^12.0.1"
+  },
+  "scripts": {
+  "build": "browserify src/app.js --transform babelify --outfile build/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiromoon/react-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiromoon/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/hiromoon/react-tutorial#readme"
+}
